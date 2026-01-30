@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fog Detection System</title>
+    <style>
+        body {
+            background-color: #111;
+            color: white;
+            text-align: center;
+            font-family: Arial;
+        }
+        h1 {
+            color: cyan;
+        }
+        img {
+            border: 4px solid cyan;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌫️ Fog Detection System</h1>
+    <p>Live Camera Feed with Fog Detection</p>
+
+    <img src="{{ url_for('video') }}" width="640" height="480">
+
+</body>
+</html>
